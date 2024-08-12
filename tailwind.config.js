@@ -10,6 +10,8 @@ export default {
 			custom_blue: "#25495C",
 			custom_blue_x: "	rgba(37,73,92,0.500)",
 			custom_indigo: "#283669",
+			custom_gray: "#D9D9D9",
+			custom_dark_gray: "#747474",
 		},
 		extend: {
 			backgroundImage: {
