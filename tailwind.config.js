@@ -3,7 +3,7 @@ export default {
 	content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
 	theme: {
 		colors: {
-			gradient_light: "#304182",
+			gradient_light: "#162149",
 			gradient_dark: "#080A0D",
 
 			custom_dark: "#1A202E",

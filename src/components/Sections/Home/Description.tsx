@@ -3,7 +3,7 @@ import { FiTrendingUp, FiStar, FiDatabase } from "react-icons/fi";
 
 function Description() {
 	return (
-		<div className=" w-2/4 rounded-full h-2 self-center mt-8 flex justify-between">
+		<div className=" w-full rounded-full h-2 self-center mt-8 flex md:flex-col lg:flex-row justify-between">
 			<div className="max-w-64 space-y-4">
 				<h3 className=" text-2xl">
 					<FiTrendingUp className="text-custom_dark_gray" />

@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
+import "react-tooltip/dist/react-tooltip.css";
 
 const router = createBrowserRouter([
 	{
