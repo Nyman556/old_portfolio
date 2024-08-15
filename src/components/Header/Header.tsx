@@ -19,10 +19,10 @@ function Header({ activeRef }) {
 				JN Johan Nyman
 			</a>
 			<Nav activeRef={activeRef} />
-			<div className="flex space-x-2 py-2">
-				{socials.map((social, index) => (
+			<div className="flex gap-6 py-2">
+				{socials.map((social, idx) => (
 					<SocialLink
-						key={index}
+						key={idx}
 						icon={social.icon}
 						path={social.path}
 						desc={social.desc}

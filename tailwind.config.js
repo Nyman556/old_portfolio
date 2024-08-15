@@ -12,10 +12,11 @@ export default {
 			custom_indigo: "#283669",
 			custom_gray: "#D9D9D9",
 			custom_dark_gray: "#747474",
+			custom_steel_blue: "#2E8AA4",
 		},
 		extend: {
-			backgroundImage: {
-				"gradient-pattern": "url('/gradient.svg')",
+			screens: {
+				"3xl": "2000px",
 			},
 		},
 	},

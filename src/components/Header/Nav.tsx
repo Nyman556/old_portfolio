@@ -12,27 +12,21 @@ function Nav({ activeRef }) {
 		setActivePath(activeRef);
 	}, [activeRef]);
 
+	const navList = ["Home", "Work", "About"];
+
 	return (
-		<div className="h-fit px-2 py-3 rounded-full flex space-x-8 bg-custom_dark">
-			<NavLink
-				title={"Home"}
-				path={"#Home"}
-				active={activePath === "#Home"}
-				onClick={() => handleLinkClick("#Home")}
-			/>
-			<NavLink
-				title={"Work"}
-				path={"#Work"}
-				active={activePath === "#Work"}
-				onClick={() => handleLinkClick("#Work")}
-			/>
-			<NavLink
-				title={"About"}
-				path={"#About"}
-				active={activePath === "#About"}
-				onClick={() => handleLinkClick("#About")}
-			/>
-		</div>
+		<ul className="h-fit px-2 py-3 rounded-full flex space-x-8 bg-custom_dark">
+			{navList.map((item, idx) => (
+				<li key={idx}>
+					<NavLink
+						title={item}
+						path={"#" + item}
+						active={activePath === "#" + item}
+						onClick={() => handleLinkClick("#" + item)}
+					/>
+				</li>
+			))}
+		</ul>
 	);
 }
 

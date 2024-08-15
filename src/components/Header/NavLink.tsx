@@ -13,7 +13,7 @@ function NavLink({ title, path, active, onClick }) {
 			<HashLink
 				smooth
 				to={path}
-				scroll={scrollWithOffset} // Use the custom scroll function
+				scroll={scrollWithOffset}
 				className={`${
 					active ? "bg-custom_blue" : "bg-none"
 				} hover:bg-custom_blue_x transition-colors p-2 px-6 rounded-3xl`}

@@ -1,8 +1,15 @@
 import React from "react";
 
-function SkillTag({ icon, title }) {
+function SkillTag({ icon, title, onClick, active }) {
 	return (
-		<button className=" bg-custom_indigo px-4 py-1 rounded-full flex justify-center items-center gap-2 text-md hover:bg-custom_blue">
+		<button
+			className={`px-4 py-1 rounded-full flex justify-center items-center gap-2 text-md border border-custom_indigo ${
+				active
+					? "bg-custom_steel_blue text-white"
+					: "hover:bg-custom_steel_blue"
+			}`}
+			onClick={onClick}
+		>
 			{icon}
 			<p>{title}</p>
 		</button>

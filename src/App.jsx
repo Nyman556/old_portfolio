@@ -33,7 +33,7 @@ function App() {
 		<>
 			<div className="w-full h-full bg-gradient-to-br from-gradient_light via-gradient_dark to-gradient_dark opacity-85">
 				<Header activeRef={activeSection} />
-				<div className="flex items-center flex-col lg:*:w-1/2 md:*:w-2/3">
+				<div className="flex items-center flex-col 3xl:*:w-1/3 lg:*:w-1/2 md:*:w-2/3">
 					<Home viewRef={homeRef} />
 					<Work viewRef={workRef} />
 					<About viewRef={aboutRef} />
