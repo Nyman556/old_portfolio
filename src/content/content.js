@@ -7,8 +7,12 @@ import {
 	FiCode,
 	FiFigma,
 	FiSmartphone,
+	FiGithub,
+	FiLinkedin,
+	FiSend,
 } from "react-icons/fi";
 
+// Descriptions used in Home
 export const descriptions = {
 	uiDev: {
 		icon: FiCode,
@@ -89,3 +93,14 @@ export const descriptions = {
 		},
 	},
 };
+
+// Social links, used in Header
+export const socials = [
+	{ icon: FiGithub, desc: "Github", path: "https://github.com/Nyman556" },
+	{
+		icon: FiLinkedin,
+		desc: "LinkedIn",
+		path: "https://www.linkedin.com/in/johan-nyman-b574831bb/",
+	},
+	{ icon: FiSend, desc: "Mail", path: "mailto:johan.nyman.dev@gmail.com" },
+];

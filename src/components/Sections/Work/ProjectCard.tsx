@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function ProjectCard({ project }) {
 	return (
 		<Link
-			to="/"
+			to={project.path}
 			className=" w-full min-h-52 h-72 bg-custom_blue rounded-xl transition-all hover:scale-110 p-2 flex flex-col"
 			style={{
 				backgroundImage: `url(${project.thumbnail})`,

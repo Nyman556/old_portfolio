@@ -4,7 +4,6 @@ import profile from "/Images/profile.png";
 import { FiCode, FiFigma, FiSmartphone } from "react-icons/fi";
 import Divider from "../../General/Divider";
 import Description from "./Description";
-import { motion } from "framer-motion";
 
 function Home({ viewRef }) {
 	const [activeDesc, setActiveDesc] = useState([false, false, false]);
@@ -52,7 +51,7 @@ function Home({ viewRef }) {
 						))}
 					</div>
 				</div>
-				<img src={profile} alt="Me" className="rounded-3xl" />
+				<img src={profile} alt="Me" className="rounded-3xl md:mt-16" />
 			</div>
 			<Divider />
 			<Description activeDesc={activeDesc} />

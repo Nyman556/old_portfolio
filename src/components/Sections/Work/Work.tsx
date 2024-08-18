@@ -23,31 +23,37 @@ function Work({ viewRef }) {
 			title: "Ecommerce",
 			thumbnail: trendfusionThumb,
 			tech: ["React", "Javascript", "CSS", "Responsive Design", "TailwindCSS"],
+			path: "/johan.nyman/Ecommerce",
 		},
 		{
 			title: "Blog",
 			thumbnail: AngularBlogThumb,
 			tech: ["Angular", "TypeScript", "Responsive Design", "TailwindCSS"],
+			path: "/johan.nyman/Blog",
 		},
 		{
 			title: "Blog",
 			thumbnail: AngularBlogThumb,
 			tech: ["Angular", "TypeScript", "Responsive Design", "TailwindCSS"],
+			path: "/johan.nyman/Blog",
 		},
 		{
 			title: "Blog",
 			thumbnail: AngularBlogThumb,
 			tech: ["Angular", "TypeScript", "Responsive Design", "TailwindCSS"],
+			path: "/johan.nyman/Blog",
 		},
 		{
 			title: "Blog",
 			thumbnail: AngularBlogThumb,
 			tech: ["Angular", "TypeScript", "Responsive Design", "TailwindCSS"],
+			path: "/johan.nyman/Blog",
 		},
 		{
 			title: "Blog",
 			thumbnail: AngularBlogThumb,
 			tech: ["Angular", "TypeScript", "Responsive Design", "TailwindCSS"],
+			path: "/johan.nyman/Blog",
 		},
 	];
 
